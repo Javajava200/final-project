@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+	<title>Services</title>
+	<link href="testimonialss.css" rel="stylesheet" type="text/css"/>
+	
+	<style>
+
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color:#f4f4f4;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.testimonial {
+    flex: 1 1 300px;
+    padding: 20px;
+    background-color:#f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial h5 {
+    font-size: 12px;
+    color: #333;
+    
+}
+
+.testimonial p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+.testimonial:hover{
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.08);
+}
+a:hover{
+        color:gray;
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+	</style>
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to SecureSaving Bank</h1>
+			
+			<nav>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                 <li><a href="contact us.html">Contact Us</a></li>
+                <li><a href="servises.html">Services</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="calculate.html">Calculate</a></li>               
+						
+				</ul>
+                <p id="date"></p>
+            <script>
+   var d = new Date();
+   document.getElementById("date").innerHTML = "("+d+")";
+</script>
+			</nav>
+		</header>
+        <h1 style="text-align: center;">Test<span style="color:#4a90e2;">imon</span>ials</h1>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <h2>Jack Dawood</h2>
+                <h5>Email:Jack@gmail.com</h5>
+                <p>"SecureSaving Bank has been instrumental in securing my financial future. Their personalized services and expert advice have exceeded my expectations."</p>
+            </div>
+            <div class="testimonial">
+                <h2>Mark Jack</h2>
+                <h5>Email:mark00@gmail.com</h5>
+                <p>"I've been a client of SecureSaving Bank for years. Their commitment to integrity and customer satisfaction is unmatched in the industry. Highly recommended!"</p>
+            </div>
+            <div class="testimonial">
+                <h2>yousef Ahmad</h2>
+                <h5>Email:yousef00@gmail.com</h5>
+                <p>"Exceptional banking experience! SecureSaving Bank's attention to detail and innovative solutions have made managing my finances a breeze."</p>
+            </div>
+            <div class="testimonial">
+                <h2>Ahmad Ibrahim</h2>
+                <h5>Email:Ahmad00@gmail.com</h5>
+                <p>"SecureSaving Bank provides a seamless and secure banking platform. Their customer service is exceptional, always responsive and helpful."</p>
+            </div>
+        </div>
+        
+		<footer style="background-color: #2c3e50;">
+			<p>&copy; 2023 Banking Website. All rights reserved.</p>
+		</footer>
+	</body>
+	</html>

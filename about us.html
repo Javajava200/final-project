@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Banking Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="aboutus.css">
+    <style>
+       
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #f4f4f4;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: #f4f4f4;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: gray;
+        }
+
+        .section {
+            padding: 50px 0;
+        }
+
+        .content-section,
+        .image-section {
+            padding: 20px;
+        }
+
+        .content-section p {
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #f4f4f4;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .bb {
+            border-radius: 50%;
+            width: 100px;
+            position: absolute;
+            top: 19px;
+            left: 11px;
+        }
+
+        a:hover {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+       
+        <h1>Welcome to SecureSaving Bank</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+                <li><a href="servises.html">Services</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="calculate.html">Calculate</a></li>
+            </ul>
+            <p id="date"></p>
+            <script>
+   var d = new Date();
+   document.getElementById("date").innerHTML = "("+d+")";
+</script>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="content-section">
+                        <div class="title">
+                            <h2>About Us</h2>
+                        </div>
+                        <div class="content">
+                            <p>Welcome to Our Bank, SecureSaving Bank, a modern and innovative bank that provides online banking services. We strive to provide a comfortable and secure banking experience to our customers. We offer a wide range of electronic banking services including current accounts, savings accounts, credit cards, and loans. We care about the comfort of our customers and are working to develop modern technologies to facilitate online banking operations. Join us today and enjoy an easy and flexible banking experience!</p>
+                            <div class="button">
+                                <a href="Readmore.html" class="btn btn-dark">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="image-section">
+                        <img src="about.JPG" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Banking Website. All rights reserved.</p>
+    </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

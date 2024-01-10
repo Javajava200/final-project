@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Services</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: calibri;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .services {
+            width: 100%;
+            padding: 50px 0;
+        }
+
+        .s-heading {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .s-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+            height: auto;
+            text-align: center;
+            margin: 30px auto;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .s-btn {
+            width: 140px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(74, 144, 226, 0.50);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #576975;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .s-box img {
+            height: 75px;
+        }
+
+        .s-box:hover {
+            box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .s-btn:hover {
+            background-color: #4a90e2;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+
+        .bb {
+            border-radius: 50%;
+            width: 100px;
+            position: absolute;
+            top: 19px;
+            left: 11px;
+        }
+
+        a:hover {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+        <h1>Welcome to SecureSaving Bank</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+                <li><a href="servises.html">Services</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="calculate.html">Calculate</a></li>
+            </ul>
+            <p id="date"></p>
+            <script>
+   var d = new Date();
+   document.getElementById("date").innerHTML = "("+d+")";
+</script>
+        </nav>
+    </header>
+
+    <section class="services">
+        <div class="container">
+            <div class="s-heading">
+                <h1>Ser<span style="color: #4a90e2;">vic</span>es</h1>
+                <p>We Provide The Best In Class Services For Our Customers</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="s-box">
+                        <img alt="1" src="money.JPG" />
+                        <h1>Spend Money</h1>
+                        <p>Track on your all daily expense and make your day to life easier.</p>
+                        <a class="s-btn" href="#">More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="s-box">
+                        <img alt="2" src="servises1 - Copy.JPG" />
+                        <h1>Set Budget</h1>
+                        <p>Make a Budget That Fit Right With You And Can Do Most With It</p>
+                        <a class="s-btn" href="#">More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="s-box">
+                        <img alt="3" src="servises2.JPG" />
+                        <h1>Security</h1>
+                        <p>We Store All Card Info And Money Safe To Make You Relax And Crazy</p>
+                        <a class="s-btn" href="#">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Banking Website. All rights reserved.</p>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
